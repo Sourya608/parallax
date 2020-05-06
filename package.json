@@ -1,0 +1,27 @@
+{
+  "name": "parallax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages index.html",
+    "deploy2": "gh-pages /build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sourya608/parallax.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sourya608/parallax/issues"
+  },
+  "homepage": "https://github.com/Sourya608/parallax#readme",
+  "devDependencies": {
+    "gh-pages-deploy": "^0.5.1"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
