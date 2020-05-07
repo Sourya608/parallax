@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages index.html",
-    "deploy2": "gh-pages /build index.html"
+    "deploy2": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
