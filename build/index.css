@@ -25,14 +25,15 @@ body {
 .bg h1 {
   font-size: 4em;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 1rem 1rem;
-  color: #fff;
+  color: #000;
   user-select: none;
   font-weight: 200;
 }
 .content {
-  background-color: rgba(172, 172, 172, 0.2);
+  /* background-color: rgba(172, 172, 172, 0.2); */
+  background-image: linear-gradient(#000, #fff, #000);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -49,15 +50,28 @@ body {
   margin: 0 5rem;
 }
 .bg1 {
-  background: url("./Chrysanthemum.jpg");
+  background: url("./time-lapse1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .bg2 {
-  background: url("./Lighthouse.jpg");
+  background: url("./time-lapse2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+@media (max-width: 1170px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+@media (max-width: 580px) {
+  html,
+  body {
+    font-size: 8px;
+  }
 }
